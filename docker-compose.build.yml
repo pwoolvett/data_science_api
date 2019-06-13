@@ -5,3 +5,10 @@ services:
       context: .
       dockerfile: Dockerfile
     image: pwoolvett/data-science-api:${TAG:-latest}
+  dev:
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    environment:
+      TAG: "${TAG:-latest}"
+    image: pwoolvett/data-science-api:dev-${TAG:-latest}
