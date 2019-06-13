@@ -18,5 +18,3 @@ RUN mkdir -p ~/.config/pypoetry/ \
     touch ~/.config/pypoetry/config.toml \
     && \
     poetry config settings.virtualenvs.create false
-
-CMD python -c "import numpy as np; print(np.zeros((1,2)))"
