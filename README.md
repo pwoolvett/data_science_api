@@ -13,3 +13,7 @@
 **GitHub repo**: [https://github.com/pwoolvett/data_science_api](https://github.com/pwoolvett/data_science_api)
 
 **Docker Hub image**: [https://hub.docker.com/r/pwoolvett/data-science-api/](https://hub.docker.com/r/pwoolvett/data-science-api)
+
+# Thanks
+
+* **tiangolo's fastapi**: [https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker)
