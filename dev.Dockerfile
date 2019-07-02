@@ -1,6 +1,6 @@
 FROM pwoolvett/data-science-api:latest
 
-LABEL maintainer="pablowoolvett@gmail.com"
+LABEL maintainer="Pablo Woolvett <pablowoolvett@gmail.com>"
 
 ENV PYTHONFAULTHANDLER=1 \
     PYTHONUNBUFFERED=1 \
