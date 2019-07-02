@@ -1,8 +1,3 @@
-## Supported tags and respective `Dockerfile` links
-
-* [`python3.6`, `latest` _(Dockerfile)_](https://github.com/pwoolvett/data_science_api/blob/master/Dockerfile)
-* [`python3.6`, `dev-latest` _(Dockerfile)_](https://github.com/pwoolvett/data_science_api/blob/master/dev.Dockerfile)
-
 # data-science-api
 
 [**FastAPI**](https://fastapi.tiangolo.com/) [**Docker**](https://www.docker.com/) images, with common python libs:
