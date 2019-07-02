@@ -4,13 +4,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        TAG: ${TAG}
-    image: pwoolvett/data-science-api:${TAG}
+    image: pwoolvett/data-science-api:${VERSION}
   dev:
     build:
       context: .
       dockerfile: dev.Dockerfile
       args:
-        TAG: ${TAG}
-    image: pwoolvett/data-science-api:dev-${TAG}
+        VERSION: ${VERSION}
+    image: pwoolvett/data-science-api:poetry-${VERSION}
+    depends_on:
+      - api
