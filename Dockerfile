@@ -6,5 +6,3 @@ RUN pip --no-cache install \
     pandas \
     sqlalchemy \
     ludwig 
-    
-CMD python -c "import numpy as np; print(np.zeros((1,2)))"
